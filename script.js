@@ -25,7 +25,7 @@ const questions = [
   },
   {
     text: `
-<strong>問題3</strong><br>ドライシロップを水に溶かして交付した場合、自家製剤加算を算定できるか？
+<strong>問題3</strong><br>ドライシロップを水に溶かして交付した。<br>自家製剤加算を算定できるか？
 `,
     answer: false,
     explanation: `
@@ -34,7 +34,7 @@ const questions = [
   },
   {
     text: `
-<strong>問題4</strong><br>散剤が供給不足により手に入らない為、錠剤を粉砕した。<br>この場合、自家製剤加算を算定できるか？
+<strong>問題4</strong><br>散剤が供給不足により手に入らない為、錠剤を粉砕した。<br>自家製剤加算を算定できるか？
 `,
     answer: true,
     explanation: `
