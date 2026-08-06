@@ -88,7 +88,7 @@ const questions = [
   },
   {
     text: `
-<strong>問題9</strong><br>「センノシド錠　1錠　分1夕食後　医師の指示により粉砕」<br>自家製剤加算を算定できるか？
+<strong>問題9</strong><br>「センノシド錠　1錠　分1夕食後　医師の指示により粉砕」<br><br>自家製剤加算を算定できるか？
 `,
     answer: true,
     explanation: `
@@ -97,7 +97,7 @@ const questions = [
   },
   {
     text: `
-<strong>問題10</strong><br>「グリメピリド錠3mg　0.5錠　分1朝食後」を調剤。<br>自家製剤加算を算定できるか？
+<strong>問題10</strong><br>「グリメピリド錠3mg　0.5錠　分1朝食後」を調剤。<br><br>自家製剤加算を算定できるか？
 `,
     answer: true,
     explanation: `
@@ -106,7 +106,7 @@ const questions = [
   },
     {
     text: `
-<strong>問題11</strong><br>「カロナール錠200mg　1.5錠　分1朝食後」を調剤。<br>自家製剤加算を算定できるか？
+<strong>問題11</strong><br>「カロナール錠200mg　1.5錠　分1朝食後」を調剤。<br><br>自家製剤加算を算定できるか？
 `,
     answer: false,
     explanation: `
