@@ -89,20 +89,20 @@ const questions = [
   },
   {
     text: `
-<strong>問題9</strong><br><br>この問題は、あとから処方箋形式の実践問題へ差し替えてください。<br><br><table class="prescription-table"><tr><td>Rp1)</td><td>薬剤A</td></tr><tr><td>Rp2)</td><td>薬剤B</td></tr></table><br>自家製剤加算を算定できるか？
+<strong>問題9</strong><br><br>「センノシド錠　1錠　分1夕食後　医師の指示により粉砕」<br>自家製剤加算を算定できるか？
 `,
     answer: true,
     explanation: `
-問題9の解説をここへ入力してください。<br><br><strong>根拠：</strong><br>通知・疑義解釈・審査情報提供事例・添付文書などを記載してください。
+算定できます。<br><br>センノシド錠の有効成分はセンノシドA・Bのカルシウム塩として12mgでセンノシドは20mgである。<br>センノシドで調べると出てくるアローゼン顆粒は一般名「センナ・センナ実配合顆粒」でセンナ577.9mg＋センナ実385.3mg。<br>有効成分が同一ではないため自家製剤加算を算定できる。
 `
   },
   {
     text: `
-<strong>問題10</strong><br><br>この問題は、あとから処方箋形式の実践問題へ差し替えてください。<br><br><table class="prescription-table"><tr><td>Rp1)</td><td>薬剤A</td></tr><tr><td>Rp2)</td><td>薬剤B</td></tr></table><br>自家製剤加算を算定できるか？
+<strong>問題10</strong><br><br>「グリメピリド錠3mg　1.5錠　分1朝食後」を調剤。<br>自家製剤加算を算定できるか？
 `,
     answer: true,
     explanation: `
-問題10の解説をここへ入力してください。<br><br><strong>根拠：</strong><br>通知・疑義解釈・審査情報提供事例・添付文書などを記載してください。
+算定できます。<br><br>既存の規格の組み合わせ（1mg＋0.5mg）で対応可能な場合でも、半錠の規格が無ければ自家製剤加算を算定できる。
 `
   },
   {
