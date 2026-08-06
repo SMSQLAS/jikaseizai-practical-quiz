@@ -7,7 +7,7 @@ const questions = [
 
   {
     text: `
-<strong>問題1</strong><br><br>患者から錠剤の粉砕を希望されたため、薬剤師が疑義照会を行った。<br><br>処方医から粉砕の了承を得たうえで、薬学的に問題がないことを確認し、粉砕して調剤した。<br><br>自家製剤加算を算定できるか？
+<strong>問題1</strong><br>患者から錠剤の粉砕を希望されたため、薬剤師が疑義照会を行った。<br>処方医から粉砕の了承を得たうえで、薬学的に問題がないことを確認し、粉砕して調剤した。<br>自家製剤加算を算定できるか？
 `,
     answer: true,
     explanation: `
@@ -16,7 +16,7 @@ const questions = [
   },
   {
     text: `
-<strong>問題2</strong><br><br>次のいずれかの依頼だけで、医師への確認を行わずに錠剤を粉砕した。<br><br>・患者本人の希望<br>・家族の希望<br>・介護施設職員からの依頼<br><br>自家製剤加算を算定できるか？
+<strong>問題2</strong><br>次のいずれかの依頼だけで、医師への確認を行わずに錠剤を粉砕した。<br>・患者本人の希望<br>・家族の希望<br>・介護施設職員からの依頼<br>自家製剤加算を算定できるか？
 `,
     answer: false,
     explanation: `
@@ -25,7 +25,7 @@ const questions = [
   },
   {
     text: `
-<strong>問題3</strong><br><br>ドライシロップを水に溶かして交付した場合、自家製剤加算を算定できるか。<br><br>自家製剤加算を算定できるか？
+<strong>問題3</strong><br>ドライシロップを水に溶かして交付した場合、自家製剤加算を算定できるか。<br>自家製剤加算を算定できるか？
 `,
     answer: false,
     explanation: `
@@ -34,7 +34,7 @@ const questions = [
   },
   {
     text: `
-<strong>問題4</strong><br><br>散剤が供給不足により手に入らない為、錠剤を粉砕した。<br><br>この場合、自家製剤加算を算定できるか？
+<strong>問題4</strong><br>散剤が供給不足により手に入らない為、錠剤を粉砕した。<br>この場合、自家製剤加算を算定できるか？
 `,
     answer: true,
     explanation: `
@@ -43,7 +43,7 @@ const questions = [
   },
   {
     text: `
-<strong>問題5</strong><br><br>xt: "割線のない配合錠を半錠にした。<br><br>自家製剤加算を算定できるか？
+<strong>問題5</strong><br>割線のない配合錠を半錠にした。<br><br>自家製剤加算を算定できるか？
 `,
     answer: false,
     explanation: `
@@ -52,7 +52,7 @@ const questions = [
   },
   {
     text: `
-<strong>問題6</strong><br><br>処方１<br>ビソプロロール錠2.5mg　0.5錠　朝食後　7日分<br>アジルサルタン錠10mg　0.5錠　朝食後　14日分<br><br>2剤とも自家製剤加算を算定できるか？
+<strong>問題6</strong><br>処方１<br>ビソプロロール錠2.5mg　0.5錠　朝食後　7日分<br>アジルサルタン錠10mg　0.5錠　朝食後　14日分<br>2剤とも自家製剤加算を算定できるか？
 `,
     answer: true,
     explanation: `
@@ -61,7 +61,7 @@ const questions = [
   },
   {
     text: `
-<strong>問題7</strong><br><br>ベストロン点眼液を、粉末を溶解し、使えるようにしてお渡しした。<br>自家製剤加算を算定できるか？
+<strong>問題7</strong><br>ベストロン点眼液を、粉末を溶解し、使えるようにしてお渡しした。<br>自家製剤加算を算定できるか？
 `,
     answer: false,
     explanation: `
@@ -70,7 +70,7 @@ const questions = [
   },
   {
     text: `
-<strong>問題8</strong><br><br>
+<strong>問題8</strong><br>
 <table class="prescription-table">
 <tr><td>Rp1)</td></tr>
 <tr><td>タケプロン錠15㎎</td><td>1錠</td></tr>
@@ -89,7 +89,7 @@ const questions = [
   },
   {
     text: `
-<strong>問題9</strong><br><br>「センノシド錠　1錠　分1夕食後　医師の指示により粉砕」<br>自家製剤加算を算定できるか？
+<strong>問題9</strong><br>「センノシド錠　1錠　分1夕食後　医師の指示により粉砕」<br>自家製剤加算を算定できるか？
 `,
     answer: true,
     explanation: `
@@ -98,7 +98,7 @@ const questions = [
   },
   {
     text: `
-<strong>問題10</strong><br><br>「グリメピリド錠3mg　1.5錠　分1朝食後」を調剤。<br>自家製剤加算を算定できるか？
+<strong>問題10</strong><br>「グリメピリド錠3mg　1.5錠　分1朝食後」を調剤。<br>自家製剤加算を算定できるか？
 `,
     answer: true,
     explanation: `
@@ -107,7 +107,7 @@ const questions = [
   },
   {
     text: `
-<strong>問題11</strong><br><br><table style="border-collapse:separate; border-spacing:20px 6px;">
+<strong>問題11</strong><br><table style="border-collapse:separate; border-spacing:20px 6px;">
       <tr><td>Aシロップ</td><td>5ml</td></tr>
     <tr><td>Bシロップ</td><td>6ml</td></tr>
 <tr><td>Cドライシロップ</td><td>0.6ｇ</td></tr>
@@ -123,7 +123,7 @@ const questions = [
   },
   {
     text: `
-<strong>問題12</strong><br><br>この問題は、あとから処方箋形式の実践問題へ差し替えてください。<br><br><table class="prescription-table"><tr><td>Rp1)</td><td>薬剤A</td></tr><tr><td>Rp2)</td><td>薬剤B</td></tr></table><br>自家製剤加算を算定できるか？
+<strong>問題12</strong><br>この問題は、あとから処方箋形式の実践問題へ差し替えてください。<br><br><table class="prescription-table"><tr><td>Rp1)</td><td>薬剤A</td></tr><tr><td>Rp2)</td><td>薬剤B</td></tr></table><br>自家製剤加算を算定できるか？
 `,
     answer: true,
     explanation: `
@@ -132,7 +132,7 @@ const questions = [
   },
   {
     text: `
-<strong>問題13</strong><br><br>この問題は、あとから処方箋形式の実践問題へ差し替えてください。<br><br><table class="prescription-table"><tr><td>Rp1)</td><td>薬剤A</td></tr><tr><td>Rp2)</td><td>薬剤B</td></tr></table><br>自家製剤加算を算定できるか？
+<strong>問題13</strong><br>この問題は、あとから処方箋形式の実践問題へ差し替えてください。<br><br><table class="prescription-table"><tr><td>Rp1)</td><td>薬剤A</td></tr><tr><td>Rp2)</td><td>薬剤B</td></tr></table><br>自家製剤加算を算定できるか？
 `,
     answer: true,
     explanation: `
@@ -141,7 +141,7 @@ const questions = [
   },
   {
     text: `
-<strong>問題14</strong><br><br>この問題は、あとから処方箋形式の実践問題へ差し替えてください。<br><br><table class="prescription-table"><tr><td>Rp1)</td><td>薬剤A</td></tr><tr><td>Rp2)</td><td>薬剤B</td></tr></table><br>自家製剤加算を算定できるか？
+<strong>問題14</strong><br>この問題は、あとから処方箋形式の実践問題へ差し替えてください。<br><br><table class="prescription-table"><tr><td>Rp1)</td><td>薬剤A</td></tr><tr><td>Rp2)</td><td>薬剤B</td></tr></table><br>自家製剤加算を算定できるか？
 `,
     answer: true,
     explanation: `
@@ -150,7 +150,7 @@ const questions = [
   },
   {
     text: `
-<strong>問題15</strong><br><br>この問題は、あとから処方箋形式の実践問題へ差し替えてください。<br><br><table class="prescription-table"><tr><td>Rp1)</td><td>薬剤A</td></tr><tr><td>Rp2)</td><td>薬剤B</td></tr></table><br>自家製剤加算を算定できるか？
+<strong>問題15</strong><br>この問題は、あとから処方箋形式の実践問題へ差し替えてください。<br><br><table class="prescription-table"><tr><td>Rp1)</td><td>薬剤A</td></tr><tr><td>Rp2)</td><td>薬剤B</td></tr></table><br>自家製剤加算を算定できるか？
 `,
     answer: true,
     explanation: `
@@ -159,7 +159,7 @@ const questions = [
   },
   {
     text: `
-<strong>問題16</strong><br><br>この問題は、あとから処方箋形式の実践問題へ差し替えてください。<br><br><table class="prescription-table"><tr><td>Rp1)</td><td>薬剤A</td></tr><tr><td>Rp2)</td><td>薬剤B</td></tr></table><br>自家製剤加算を算定できるか？
+<strong>問題16</strong><br>この問題は、あとから処方箋形式の実践問題へ差し替えてください。<br><br><table class="prescription-table"><tr><td>Rp1)</td><td>薬剤A</td></tr><tr><td>Rp2)</td><td>薬剤B</td></tr></table><br>自家製剤加算を算定できるか？
 `,
     answer: true,
     explanation: `
@@ -168,7 +168,7 @@ const questions = [
   },
   {
     text: `
-<strong>問題17</strong><br><br>この問題は、あとから処方箋形式の実践問題へ差し替えてください。<br><br><table class="prescription-table"><tr><td>Rp1)</td><td>薬剤A</td></tr><tr><td>Rp2)</td><td>薬剤B</td></tr></table><br>自家製剤加算を算定できるか？
+<strong>問題17</strong><br>この問題は、あとから処方箋形式の実践問題へ差し替えてください。<br><br><table class="prescription-table"><tr><td>Rp1)</td><td>薬剤A</td></tr><tr><td>Rp2)</td><td>薬剤B</td></tr></table><br>自家製剤加算を算定できるか？
 `,
     answer: true,
     explanation: `
@@ -177,7 +177,7 @@ const questions = [
   },
   {
     text: `
-<strong>問題18</strong><br><br>この問題は、あとから処方箋形式の実践問題へ差し替えてください。<br><br><table class="prescription-table"><tr><td>Rp1)</td><td>薬剤A</td></tr><tr><td>Rp2)</td><td>薬剤B</td></tr></table><br>自家製剤加算を算定できるか？
+<strong>問題18</strong><br>この問題は、あとから処方箋形式の実践問題へ差し替えてください。<br><br><table class="prescription-table"><tr><td>Rp1)</td><td>薬剤A</td></tr><tr><td>Rp2)</td><td>薬剤B</td></tr></table><br>自家製剤加算を算定できるか？
 `,
     answer: true,
     explanation: `
@@ -186,7 +186,7 @@ const questions = [
   },
   {
     text: `
-<strong>問題19</strong><br><br> <table style="border-collapse:separate; border-spacing:20px 6px;">
+<strong>問題19</strong><br> <table style="border-collapse:separate; border-spacing:20px 6px;">
     <tr><td>Rp1)</td></tr>
     <tr><td>セレコキシブ錠100㎎</td><td>2錠</td></tr>
 <tr><td>レバミピド錠100㎎</td><td>2錠</td></tr>
@@ -209,7 +209,7 @@ const questions = [
   },
   {
     text: `
-<strong>問題20</strong><br><br><table style="border-collapse:separate; border-spacing:20px 6px;">
+<strong>問題20</strong><br><table style="border-collapse:separate; border-spacing:20px 6px;">
     <tr><td>Rp1)</td></tr>
     <tr><td>セレコキシブ錠100㎎</td><td>2錠</td></tr>
 <tr><td>レバミピド錠100㎎</td><td>2錠</td></tr>
