@@ -131,7 +131,7 @@ const questions = [
   },
   {
     text: `
-<strong>問題13</strong><br>「ネキシウムカプセル10㎎　1Cp　分1朝食後」を医師の指示により脱カプセルした。<br><br>自家製剤加算を算定できるか？
+<strong>問題13</strong><br>「ネキシウムカプセル10㎎　1Cp　分1朝食後」<br>嚥下困難のため、医師の指示により脱カプセルし、腸溶性顆粒のまま交付した。<br><br>自家製剤加算を算定できるか？
 `,
     answer: false,
     explanation: `
@@ -140,52 +140,27 @@ const questions = [
   },
   {
     text: `
-<strong>問題14</strong><br>この問題は、あとから処方箋形式の実践問題へ差し替えてください。<br><br><table class="prescription-table"><tr><td>Rp1)</td><td>薬剤A</td></tr><tr><td>Rp2)</td><td>薬剤B</td></tr></table><br>自家製剤加算を算定できるか？
+<strong>問題14</strong><br>「バイアスピリン錠100mg　1錠　分1朝食後」を医師の指示により粉砕して調剤。<br>（アスピリン末の適応は解熱鎮痛と川崎病のみで適応は異なっている）
+<br><br>自家製剤加算を算定できるか？
 `,
-    answer: true,
+    answer: false,
     explanation: `
-問題14の解説をここへ入力してください。<br><br><strong>根拠：</strong><br>通知・疑義解釈・審査情報提供事例・添付文書などを記載してください。
+算定できません。バイアスピリン（腸溶錠）の粉砕は、アスピリン末が薬価収載されています。アスピリン末の適応は解熱鎮痛と川崎病のみで、適応は異なっていても算定はできません。
 `
   },
   {
     text: `
-<strong>問題15</strong><br>この問題は、あとから処方箋形式の実践問題へ差し替えてください。<br><br><table class="prescription-table"><tr><td>Rp1)</td><td>薬剤A</td></tr><tr><td>Rp2)</td><td>薬剤B</td></tr></table><br>自家製剤加算を算定できるか？
+<strong>問題15</strong><br>「フロモックス錠100mg　3錠　分3毎食後」を医師の指示により粉砕して調剤。
+<br><br>自家製剤加算を算定できるか？
 `,
-    answer: true,
+    answer: false,
     explanation: `
-問題15の解説をここへ入力してください。<br><br><strong>根拠：</strong><br>通知・疑義解釈・審査情報提供事例・添付文書などを記載してください。
+算定できません。<br>フロモックスには小児用細粒が薬価収載されており、成人で錠剤の服用が困難な場合にも使用できる用法・容量が設定されているため、自家製剤加算は算定できません。
 `
   },
-  {
+   {
     text: `
-<strong>問題16</strong><br>この問題は、あとから処方箋形式の実践問題へ差し替えてください。<br><br><table class="prescription-table"><tr><td>Rp1)</td><td>薬剤A</td></tr><tr><td>Rp2)</td><td>薬剤B</td></tr></table><br>自家製剤加算を算定できるか？
-`,
-    answer: true,
-    explanation: `
-問題16の解説をここへ入力してください。<br><br><strong>根拠：</strong><br>通知・疑義解釈・審査情報提供事例・添付文書などを記載してください。
-`
-  },
-  {
-    text: `
-<strong>問題17</strong><br>この問題は、あとから処方箋形式の実践問題へ差し替えてください。<br><br><table class="prescription-table"><tr><td>Rp1)</td><td>薬剤A</td></tr><tr><td>Rp2)</td><td>薬剤B</td></tr></table><br>自家製剤加算を算定できるか？
-`,
-    answer: true,
-    explanation: `
-問題17の解説をここへ入力してください。<br><br><strong>根拠：</strong><br>通知・疑義解釈・審査情報提供事例・添付文書などを記載してください。
-`
-  },
-  {
-    text: `
-<strong>問題18</strong><br>この問題は、あとから処方箋形式の実践問題へ差し替えてください。<br><br><table class="prescription-table"><tr><td>Rp1)</td><td>薬剤A</td></tr><tr><td>Rp2)</td><td>薬剤B</td></tr></table><br>自家製剤加算を算定できるか？
-`,
-    answer: true,
-    explanation: `
-問題18の解説をここへ入力してください。<br><br><strong>根拠：</strong><br>通知・疑義解釈・審査情報提供事例・添付文書などを記載してください。
-`
-  },
-  {
-    text: `
-<strong>問題19</strong><br> <table style="border-collapse:separate; border-spacing:20px 6px;">
+<strong>問題16</strong><br> <table style="border-collapse:separate; border-spacing:20px 6px;">
     <tr><td>Rp1)</td></tr>
     <tr><td>セレコキシブ錠100㎎</td><td>2錠</td></tr>
 <tr><td>レバミピド錠100㎎</td><td>2錠</td></tr>
@@ -208,7 +183,7 @@ const questions = [
   },
   {
     text: `
-<strong>問題20</strong><br><table style="border-collapse:separate; border-spacing:20px 6px;">
+<strong>問題17</strong><br><table style="border-collapse:separate; border-spacing:20px 6px;">
     <tr><td>Rp1)</td></tr>
     <tr><td>セレコキシブ錠100㎎</td><td>2錠</td></tr>
 <tr><td>レバミピド錠100㎎</td><td>2錠</td></tr>
