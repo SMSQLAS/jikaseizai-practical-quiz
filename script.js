@@ -52,7 +52,7 @@ const questions = [
   },
   {
     text: `
-<strong>問題6</strong>ビソプロロール錠2.5mg　0.5錠　朝食後　7日分<br>アジルサルタン錠10mg　0.5錠　朝食後　14日分<br>2剤とも自家製剤加算を算定できるか？
+<strong>問題6</strong>ビソプロロール錠2.5mg　0.5錠　朝食後　7日分<br>アジルサルタン錠10mg　0.5錠　朝食後　14日分<br><br>2剤とも自家製剤加算を算定できるか？
 `,
     answer: true,
     explanation: `
@@ -61,7 +61,7 @@ const questions = [
   },
   {
     text: `
-<strong>問題7</strong><br>ベストロン点眼液を、粉末を溶解し、使えるようにしてお渡しした。<br>自家製剤加算を算定できるか？
+<strong>問題7</strong><br>ベストロン点眼液を、粉末を溶解し、使えるようにしてお渡しした。<br><br>自家製剤加算を算定できるか？
 `,
     answer: false,
     explanation: `
@@ -70,12 +70,12 @@ const questions = [
   },
   {
     text: `
-<strong>問題8</strong><br>
+<strong>問題8</strong>
 <table class="prescription-table">
 <tr><td>タケプロン錠15㎎</td><td>1錠</td></tr>
 <tr><td colspan="2">1日1回　朝食後　14日分</td></tr>
 </table>
-<br>処方箋に「服用困難のため粉砕」と医師の指示があり、粉砕して調剤した<br>自家製剤加算を算定できるか？
+処方箋に「服用困難のため粉砕」と医師の指示があり、粉砕して調剤した。<br><br>自家製剤加算を算定できるか？
 `,
     answer: false,
     explanation: `
