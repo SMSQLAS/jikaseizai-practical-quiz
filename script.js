@@ -107,11 +107,18 @@ const questions = [
   },
   {
     text: `
-<strong>問題11</strong><br><br>この問題は、あとから処方箋形式の実践問題へ差し替えてください。<br><br><table class="prescription-table"><tr><td>Rp1)</td><td>薬剤A</td></tr><tr><td>Rp2)</td><td>薬剤B</td></tr></table><br>自家製剤加算を算定できるか？
+<strong>問題11</strong><br><br><table style="border-collapse:separate; border-spacing:20px 6px;">
+      <tr><td>Aシロップ</td><td>5ml</td></tr>
+    <tr><td>Bシロップ</td><td>6ml</td></tr>
+<tr><td>Cドライシロップ</td><td>0.6ｇ</td></tr>
+<tr><td>Dドライシロップ</td><td>1.2ｇ</td><td>1日3回</td><td>毎食後</td><td>4日分</td></tr>
+</table>
+<br>上記を混合した。<br><br>自家製剤加算を算定できるか？
 `,
-    answer: true,
+    answer: false,
     explanation: `
-問題11の解説をここへ入力してください。<br><br><strong>根拠：</strong><br>通知・疑義解釈・審査情報提供事例・添付文書などを記載してください。
+算定できません。<br><br>自家製剤加算と計量混合調剤加算については、技術的により難易度の高い製剤行為は自家製剤加算、それ以外の製剤行為は計量混合調剤加算と整理されています。
+<br>ドライシロップと液剤のように混合が容易なものについては、計量混合加算として算定します。
 `
   },
   {
