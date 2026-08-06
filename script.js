@@ -131,11 +131,11 @@ const questions = [
   },
   {
     text: `
-<strong>問題13</strong><br>この問題は、あとから処方箋形式の実践問題へ差し替えてください。<br><br><table class="prescription-table"><tr><td>Rp1)</td><td>薬剤A</td></tr><tr><td>Rp2)</td><td>薬剤B</td></tr></table><br>自家製剤加算を算定できるか？
+<strong>問題13</strong><br>「ネキシウムカプセル10㎎　1Cp　分1朝食後」を医師の指示により脱カプセルした。<br><br>自家製剤加算を算定できるか？
 `,
-    answer: true,
+    answer: false,
     explanation: `
-問題13の解説をここへ入力してください。<br><br><strong>根拠：</strong><br>通知・疑義解釈・審査情報提供事例・添付文書などを記載してください。
+算定できません。<br>ネキシウム懸濁用顆粒分包10㎎が薬価収載されているので、脱カプセルしたからといって、算定する事は出来ません。
 `
   },
   {
