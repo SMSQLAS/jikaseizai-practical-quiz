@@ -303,10 +303,10 @@ function showResult() {
   sendStatus.textContent = "";
 
   sendButton.disabled = false;
-  sendButton.textContent = "結果を送信する";
+sendButton.textContent = "結果を送信する";
 
-  // 結果を送信するまでは再挑戦できない
-  retryButton.disabled = true;
+// 結果を送信するまでは再挑戦できない
+retryButton.disabled = true;
 }
 
 function buildPayload() {
@@ -380,16 +380,16 @@ await fetch(WEB_APP_URL, {
   body: JSON.stringify(sendData)
 });
 
-    sendStatus.textContent = "✅ 結果を送信しました！";
-    sendButton.textContent = "送信済み";
-    retryButton.disabled = false;
+sendStatus.textContent = "✅ 結果を送信しました！";
+sendButton.textContent = "送信済み";
+retryButton.disabled = false;
   } catch (error) {
     console.error(error);
     sendStatus.textContent =
       "送信できませんでした。通信状況とApps ScriptのURLを確認してください。";
     sendButton.disabled = false;
-    sendButton.textContent = "結果を送信する";
-    retryButton.disabled = true;
+sendButton.textContent = "結果を送信する";
+retryButton.disabled = true;
   }
 }
 
