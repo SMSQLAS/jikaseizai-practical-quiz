@@ -111,9 +111,18 @@ const questions = [
 算定できません。<br><br>アセトアミノフェン錠に100㎎の規格はありませんが、300㎎の規格はありますので自家製剤加算を算定できません。
 `
   },
+    {
+    text: `
+<strong>問題12</strong><br>「コントミン糖衣錠12.5mg　0.5錠　分1朝食後」を調剤。<br><br>自家製剤加算を算定できるか？
+`,
+    answer: false,
+    explanation: `
+算定できません。<br><br>コントミン糖衣錠は、分割後の均一性や安定性を検討する試験は実施しておらず、半錠に分割しての投与はお勧めできません、とされています。
+`
+  },
   {
     text: `
-<strong>問題12</strong><br><table style="border-collapse:separate; border-spacing:20px 6px;">
+<strong>問題13</strong><br><table style="border-collapse:separate; border-spacing:20px 6px;">
       <tr><td>Aシロップ</td><td>5ml</td></tr>
     <tr><td>Bシロップ</td><td>6ml</td></tr>
 <tr><td>Cドライシロップ</td><td>0.6ｇ</td></tr>
@@ -129,7 +138,7 @@ const questions = [
   },
   {
     text: `
-<strong>問題13</strong><br>「ネキシウムカプセル10㎎　1Cp　分1朝食後」<br>嚥下困難のため、医師の指示により脱カプセルし、腸溶性顆粒のまま交付した。<br><br>自家製剤加算を算定できるか？
+<strong>問題14</strong><br>「ネキシウムカプセル10㎎　1Cp　分1朝食後」<br>嚥下困難のため、医師の指示により脱カプセルし、腸溶性顆粒のまま交付した。<br><br>自家製剤加算を算定できるか？
 `,
     answer: false,
     explanation: `
@@ -138,7 +147,7 @@ const questions = [
   },
   {
     text: `
-<strong>問題14</strong><br>「バイアスピリン錠100mg　1錠　分1朝食後」を医師の指示により粉砕して調剤。<br>（アスピリン末の適応は解熱鎮痛と川崎病のみで適応は異なっている）
+<strong>問題15</strong><br>「バイアスピリン錠100mg　1錠　分1朝食後」を医師の指示により粉砕して調剤。<br>（アスピリン末の適応は解熱鎮痛と川崎病のみで適応は異なっている）
 <br><br>自家製剤加算を算定できるか？
 `,
     answer: false,
@@ -148,7 +157,7 @@ const questions = [
   },
   {
     text: `
-<strong>問題15</strong><br>大人の患者さんに「フロモックス錠100mg　3錠　分3毎食後」を医師の指示により粉砕して調剤。<br>（小児用細粒は薬価収載されています。）
+<strong>問題16</strong><br>大人の患者さんに「フロモックス錠100mg　3錠　分3毎食後」を医師の指示により粉砕して調剤。<br>（小児用細粒は薬価収載されています。）
 <br><br>自家製剤加算を算定できるか？
 `,
     answer: false,
@@ -158,7 +167,7 @@ const questions = [
   },
    {
     text: `
-<strong>問題16</strong><br> <table style="border-collapse:separate; border-spacing:20px 6px;">
+<strong>問題17</strong><br> <table style="border-collapse:separate; border-spacing:20px 6px;">
     <tr><td>Rp1)</td></tr>
     <tr><td>セレコキシブ錠100㎎</td><td>2錠</td></tr>
 <tr><td>レバミピド錠100㎎</td><td>2錠</td></tr>
@@ -181,7 +190,7 @@ const questions = [
   },
   {
     text: `
-<strong>問題17</strong><br><table style="border-collapse:separate; border-spacing:20px 6px;">
+<strong>問題18</strong><br><table style="border-collapse:separate; border-spacing:20px 6px;">
     <tr><td>Rp1)</td></tr>
     <tr><td>セレコキシブ錠100㎎</td><td>2錠</td></tr>
 <tr><td>レバミピド錠100㎎</td><td>2錠</td></tr>
